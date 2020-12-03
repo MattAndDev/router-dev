@@ -1,0 +1,13 @@
+<html>
+<body>
+  <div id="search-mask"></div>
+  <div id="search-results"></div>
+  <script src="../libs/loader.js"></script>
+  <script src="../components/SearchMask.jsx"></script>
+  <script src="../components/SearchResults.jsx"></script>
+  <script>
+    window.render('SearchMask', 'SearchMask', { data: 'some data' }, document.getElementById('search-mask')); 
+    window.render('SearchResults', 'SearchResults', { data: 'some data' }, document.getElementById('search-results')); 
+  </script>
+</body>
+</html>
