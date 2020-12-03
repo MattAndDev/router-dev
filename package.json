@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "parcel pages/*.html"
+    "dev": "parcel pages/*.html ",
+    "build": "parcel build --no-content-hash pages/*.html"
   },
   "keywords": [],
   "author": "",
